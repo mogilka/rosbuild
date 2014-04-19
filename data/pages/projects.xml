@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Sat, 14 Jul 2012 20:39:54 +0400</pubDate><title>Наши проекты</title><url>projects</url><meta/><metad/><menu>Наши проекты</menu><menuStatus>Y</menuStatus><template>template.php</template><parent/><content>&amp;lt;br /&amp;gt;
-</content><private/><author>admin</author><menuOrder><![CDATA[3]]></menuOrder></item>
+<item><pubDate>Wed, 15 Aug 2012 12:43:09 +0400</pubDate><title><![CDATA[Наши проекты]]></title><url><![CDATA[projects]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Наши проекты]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;
+	(% gallery name=works %)&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><menuOrder><![CDATA[4]]></menuOrder></item>

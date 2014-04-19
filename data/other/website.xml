@@ -1,2 +1,2 @@
 <?xml version="1.0"?>
-<item><SITENAME><![CDATA[Строительная компания Ros Build]]></SITENAME><SITEURL><![CDATA[http://localhost/ros-build.com/]]></SITEURL><TEMPLATE><![CDATA[rosbuild]]></TEMPLATE><PRETTYURLS></PRETTYURLS><PERMALINK></PERMALINK></item>
+<item><SITENAME><![CDATA[Строительная компания Ros Build]]></SITENAME><SITEURL><![CDATA[http://ros-build.com/]]></SITEURL><TEMPLATE><![CDATA[rosbuild]]></TEMPLATE><PRETTYURLS/><PERMALINK/></item>

@@ -49,16 +49,16 @@ define('GSDONOTPING', 1);
 #define('GSEDITORHEIGHT', '400');
 
 # WYSIWYG toolbars (advanced, basic or [custom config]) 
-#define('GSEDITORTOOL', 'advanced');
+define('GSEDITORTOOL', 'advanced');
 
 # WYSIWYG editor language (default en)
-#define('GSEDITORLANG', 'en');
+define('GSEDITORLANG', 'ru');
 
 # WYSIWYG Editor Options
 #define('GSEDITOROPTIONS', '');
 
 # Set email from address
-#define('GSFROMEMAIL', 'noreply@get-simple.info');
+define('GSFROMEMAIL', 'mogilka@list.ru');
 
 # Autosave within edit.php. Value is the autosave interval in seconds
 #define('GSAUTOSAVE', 900);
@@ -68,7 +68,7 @@ define('GSDONOTPING', 1);
 	
 # Set PHP locale
 # http://php.net/manual/en/function.setlocale.php
-#setlocale(LC_ALL, 'en_US');
+setlocale(LC_ALL, 'ru_RU');
 
 # Disable loading of external CDN versions of scripts (jQuery/jQueryUI)
 #define("GSNOCDN",true);

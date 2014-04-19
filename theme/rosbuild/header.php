@@ -10,7 +10,7 @@
 <meta charset="utf-8">
     <title><?php get_page_clean_title(); ?> &raquo; <?php get_site_name(); ?> &raquo; <?php get_i18n_component('tagline'); ?></title>
 	<meta name="robots" content="index, follow">
-    <link rel="icon" type="image/png" href="http://localhost/ros-build.com/favicon.png">
+    <link rel="icon" type="image/png" href="/favicon.png">
 	<link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 	<link href="<?php get_theme_url(); ?>/assets/css/reset.css" rel="stylesheet">
 	<link href="<?php get_theme_url(); ?>/style.css?v=<?php echo get_site_version(); ?>" rel="stylesheet">
@@ -27,7 +27,6 @@
 	<?php get_header(); ?>
     <script type="text/javascript" src="<?php get_theme_url(); ?>/js/lib.js"></script>
 
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/waterwheel/css/waterwheel-carousel.css" charset="utf-8" />
     <script type="text/javascript" src="<?php get_theme_url(); ?>/waterwheel/js/jquery.waterwheelCarousel.min.js"></script>
     <script type="text/javascript">
@@ -64,7 +63,6 @@
             initContactTip();
 		});
 	</script>
-    
 <!--
     <link rel="stylesheet" href="<?php get_theme_url(); ?>/assets/css/jstackmenu.css" type="text/css" />
     <script type="text/javascript" src="<?php get_theme_url(); ?>/js/jstackmenu.js"></script>

@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channel><item><title><![CDATA[share]]></title><slug>share</slug><value><![CDATA[&lt;script&gt;
-	jQuery( document ).ready( function( ) {
-		var stack = jQuery( &#039;#stack ul&#039; ).stackmenu( );
-		jQuery( &#039;#stack .trigger&#039; ).click( function( ) {
-			stack.stackmenu( &#039;toggle&#039; );
-		} );
-	} );
-&lt;/script&gt;
-&lt;div id=&quot;stack&quot;&gt;
-	&lt;div class=&quot;trigger&quot; title=&quot;Поделиться&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/share.png&quot; alt=&quot;share&quot; /&gt;&lt;/div&gt;
-	&lt;ul&gt;
-	&lt;li&gt;&lt;a onclick=&quot;share(&#039;facebook&#039;, &#039;&lt;?php get_i18n_component(&#039;tagline&#039;); ?&gt;&#039;, &#039;&lt;?php get_site_name(); ?&gt;: &lt;?php get_page_clean_title(); ?&gt;&#039;, &#039;&lt;?php get_site_url(); ?&gt;&#039;)&quot; &gt;&lt;span class=&quot;title&quot;&gt;Facebook&lt;/span&gt;&lt;img src=&quot;data/uploads/social/facebook.png&quot; alt=&quot;facebook&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a onclick=&quot;share(&#039;twitter&#039;, &#039;&lt;?php get_i18n_component(&#039;tagline&#039;); ?&gt;&#039;, &#039;&lt;?php get_site_name(); ?&gt;: &lt;?php get_page_clean_title(); ?&gt;&#039;, &#039;&lt;?php get_site_url(); ?&gt;&#039;)&quot; &gt;&lt;span class=&quot;title&quot;&gt;Twitter&lt;/span&gt;&lt;img src=&quot;data/uploads/social/twitter.png&quot; alt=&quot;Twitter&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a onclick=&quot;share(&#039;vkontakte&#039;, &#039;&lt;?php get_i18n_component(&#039;tagline&#039;); ?&gt;&#039;, &#039;&lt;?php get_site_name(); ?&gt;: &lt;?php get_page_clean_title(); ?&gt;&#039;, &#039;&lt;?php get_site_url(); ?&gt;&#039;)&quot; &gt;&lt;span class=&quot;title&quot;&gt;ВКонтакте&lt;/span&gt;&lt;img src=&quot;data/uploads/social/vkontakte.png&quot; alt=&quot;ВКонтакте&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a onclick=&quot;share(&#039;mailru&#039;, &#039;&lt;?php get_i18n_component(&#039;tagline&#039;); ?&gt;&#039;, &#039;&lt;?php get_site_name(); ?&gt;: &lt;?php get_page_clean_title(); ?&gt;&#039;, &#039;&lt;?php get_site_url(); ?&gt;&#039;)&quot; &gt;&lt;span class=&quot;title&quot;&gt;Мой&amp;nbsp;Мир&lt;/span&gt;&lt;img src=&quot;data/uploads/social/moi-mir.png&quot; alt=&quot;Мой мир&quot;  /&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a onclick=&quot;share(&#039;odnoklassniki&#039;, &#039;&lt;?php get_i18n_component(&#039;tagline&#039;); ?&gt;&#039;, &#039;&lt;?php get_site_name(); ?&gt;: &lt;?php get_page_clean_title(); ?&gt;&#039;, &#039;&lt;?php get_site_url(); ?&gt;&#039;)&quot; &gt;&lt;span class=&quot;title&quot;&gt;Одноклассники&lt;/span&gt;&lt;img src=&quot;data/uploads/social/odnoklassniki.png&quot; alt=&quot;Одноклассники&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a onclick=&quot;share(&#039;linkedin&#039;, &#039;&lt;?php get_i18n_component(&#039;tagline&#039;); ?&gt;&#039;, &#039;&lt;?php get_site_name(); ?&gt;: &lt;?php get_page_clean_title(); ?&gt;&#039;, &#039;&lt;?php get_site_url(); ?&gt;&#039;)&quot; &gt;&lt;span class=&quot;title&quot;&gt;LinkedIn&lt;/span&gt;&lt;img src=&quot;data/uploads/social/linkedin.png&quot; alt=&quot;LinkedIn&quot;  /&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a onclick=&quot;share(&#039;googleplus&#039;, &#039;&lt;?php get_i18n_component(&#039;tagline&#039;); ?&gt;&#039;, &#039;&lt;?php get_site_name(); ?&gt;: &lt;?php get_page_clean_title(); ?&gt;&#039;, &#039;&lt;?php get_site_url(); ?&gt;&#039;)&quot; &gt;&lt;span class=&quot;title&quot;&gt;Google&amp;nbsp;+&lt;/span&gt;&lt;img src=&quot;data/uploads/social/googleplus.png&quot; alt=&quot;Google+&quot;  /&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/div&gt;]]></value></item><item><title><![CDATA[Sidebar]]></title><slug>sidebar</slug><value><![CDATA[&lt;h2&gt;GetSimple Features&lt;/h2&gt;
+<channel><item><title><![CDATA[Sidebar]]></title><slug>sidebar</slug><value><![CDATA[&lt;h2&gt;GetSimple Features&lt;/h2&gt;
 &lt;ul&gt; 
 &lt;li&gt;XML based data storage&lt;/li&gt; 
 &lt;li&gt;Best-in-Class User Interface&lt;/li&gt; 
@@ -28,4 +9,4 @@
 &lt;li&gt;Growing community&lt;/li&gt; 
 &lt;/ul&gt;
 &lt;p&gt;This is your sidebar text. Please change me in &lt;em&gt;Theme -&gt; Edit Components&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://get-simple.info/download/&quot;&gt;Download the Latest GetSimple&lt;/a&gt;&lt;/p&gt;]]></value></item><item><title><![CDATA[Tagline]]></title><slug>tagline</slug><value><![CDATA[Слоган компании]]></value></item></channel>
+&lt;p&gt;&lt;a href=&quot;http://get-simple.info/download/&quot;&gt;Download the Latest GetSimple&lt;/a&gt;&lt;/p&gt;]]></value></item></channel>
