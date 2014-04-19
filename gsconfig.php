@@ -58,7 +58,7 @@ define('GSEDITORLANG', 'ru');
 #define('GSEDITOROPTIONS', '');
 
 # Set email from address
-define('GSFROMEMAIL', 'mogilka@list.ru');
+define('GSFROMEMAIL', 'rosbuildmail@gmail.com');
 
 # Autosave within edit.php. Value is the autosave interval in seconds
 #define('GSAUTOSAVE', 900);
