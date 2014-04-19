@@ -1,0 +1,45 @@
+/* For jQuery Menu */
+nav ul li {
+	display: inline;
+	list-style: none; 
+    text-shadow: 2px 2px 0px rgba(0,0,0, .2);
+}
+nav ul li a {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+	-webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.6);
+	-moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.6);
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.6);
+	
+	/* Animation (Webkit, Gecko & Mozilla) */
+/*	-webkit-transition-duration: 0.20s;
+	-webkit-transition-timing-function: ease-out; 
+	-moz-transition-duration: 0.20s;
+	-moz-transition-timing-function: ease-out; */
+    
+	color: #ccc !important;
+	background: rgba(60,60,60,0.8);
+	display: inline-block;
+	font-family: Open_Sans_Condensed_Light;
+    font-size: 17px;
+    font-weight: bold;
+	padding: 5px 15px;
+	outline: none;
+	text-decoration: none !important;
+}
+nav ul li a:hover {
+    color: #F8D8A7 !important;
+/*	background: rgba(60,60,60,0.5);
+	padding: 5px 25px;*/
+}
+nav ul li.current {
+/*	background: rgba(60,60,60,0.1);
+	-webkit-box-shadow: 1px 1px 1px rgba(60,60,60,0.4);
+	-moz-box-shadow: 1px 1px 1px rgba(60,60,60,0.4); 
+	box-shadow: 1px 1px 1px rgba(60,60,60,0.4); */
+}
+nav ul li.current a {
+    color: #FDAE38 !important;
+}

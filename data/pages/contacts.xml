@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Wed, 15 Aug 2012 15:54:01 +0400</pubDate><title><![CDATA[Контакты]]></title><url><![CDATA[contacts]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Контакты]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;
+	&lt;img alt=&quot;address&quot; class=&quot;contact&quot; src=&quot;http://ros-build.com/data/uploads/icons/address.png&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;
+	Адрес:&lt;/h3&gt;
+&lt;p&gt;
+	Российская Федерация, г. Москва, ул. Лобачевского, дом 8&lt;/p&gt;
+&lt;p&gt;
+	&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;
+	&lt;img alt=&quot;phone&quot; class=&quot;contact&quot; src=&quot;http://ros-build.com/data/uploads/icons/phone.png&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;
+	Телефон:&lt;/h3&gt;
+&lt;p&gt;
+	+7 495 967 59 60, +7 495 967 59 84&lt;/p&gt;
+&lt;p&gt;
+	&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;
+	&lt;img alt=&quot;email&quot; class=&quot;contact&quot; src=&quot;http://ros-build.com/data/uploads/icons/mail.png&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;
+	Email:&lt;/h3&gt;
+&lt;p&gt;
+	&lt;a href=&quot;mailto:rosbuildmail@gmail.com&quot;&gt;rosbuildmail@gmail.com&lt;/a&gt;&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><menuOrder><![CDATA[7]]></menuOrder></item>
